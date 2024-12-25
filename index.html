@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+<!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- file css -->
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+       
+            <a href="#" class="logo"> <span>Data</span>Pulse</a>
+
+<ul class="links">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Skils</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Contact</a></li>
+
+</ul>
+
+<div class="social-links">
+    <a href="https://www.facebook.com/mohammed.abdelbaseet.7?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/mohammed_abdelbasset0/profilecard/?igsh=NTA2MHZtN2Nmcnlj" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/mohammed-abdelbasset-a31a65240/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+
+
+
+<i id="btnMenu" class="fa-solid fa-bars"></i>
+
+        </nav>
+    </header>
+<div class="hero-sec">
+    <div class="contanier">
+        <div class="div-text">
+            <h1>Mohammed Abdelbasset</h1>
+            <span>Data Analyst</span>
+            <p>I am a data analyst focused on transforming data into 
+                insights to help businesses make informed 
+                decisions using tools like Excel, SQL, and Python.</p>
+        <a href="#" class="btn">My Works</a>
+
+        </div>
+     
+
+        <div class="div-image">
+            <img src="image/me.png" alt="">
+    </div>
+</div>
+
+</div>
+
+<script>
+    let btnMenu = document.getElementById("btnMenu");
+    let navLinks = document.querySelector(".links");
+
+    btnMenu.onclick = function(){
+        btnMenu.classList.toggle("fa-times")
+        navLinks.classList.toggle("active")
+    }
+
+</script>
+
+</body>
+</html>
